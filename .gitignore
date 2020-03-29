@@ -1,4 +1,24 @@
-.idea
+# Logs
+*.log
+
+# Node
+node_modules/
+
+# Unit test / coverage reports
+coverage/
+.nyc_output
+
+# OS auto-generated files
 .DS_Store
+._*
+
+
+# Vim
+*~
+*.swp
+*.swo
+
+# IDE files
+.idea/
 .tags
 /tools/data

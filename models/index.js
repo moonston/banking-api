@@ -4,16 +4,9 @@ const path = require('path');
 const Sequelize = require('sequelize');
 const basename = path.basename(__filename);
 const env = process.env.NODE_ENV || 'development';
-// const config = require(__dirname + '/../config/config.js')[env];
 const dbConfig = require('../config/db.config')[env];
 const db = {};
 
-
-// console.log('env', env);
-// console.log('db', require('../config/db.config'));
-// console.log('dbConfig 222222', dbConfig);
-// console.log('process.env.DATABASE_HOST ', process.env.DATABASE_HOST);
-// console.log('dbConfig.host ', dbConfig.host);
 
 let sequelize = new Sequelize(
     dbConfig.database,

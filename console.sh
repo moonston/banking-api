@@ -56,7 +56,7 @@ install)
 
 #   dummy solution for now
     echo "Waiting for DB Container ..."
-    sleep 65
+    sleep 75
     docker exec -i spendesk_app npm run migrate
 ;;
 

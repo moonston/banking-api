@@ -2,6 +2,7 @@
 
 ## [Gokce Bulbul](https://github.com/moonston) @moonstone  Spendesk Coding Test 
 
+## TODO : All transfers
 
 ## Installation Docker
 ```./console.sh docker install```
@@ -34,7 +35,7 @@
  
 - card-save : Create a new card
  
- ```/card/save```
+    ```/card/save```
      
     Body Params: 
             "walletId": "1",
@@ -49,18 +50,18 @@
 
 - card-list : List cards for user
  
- ```/card/list/1```
+    ```/card/list/1```
      
 - card-load : Card load from wallet
  
- ```/card/load/1```
+    ```/card/load/1```
      
     Body Params: 
             "amount": "60",
             "userId": 1
 - card-unload : Card unload from wallet
  
- ```/card/unload/1```
+    ```/card/unload/1```
      
     Body Params: 
             "amount": "60",

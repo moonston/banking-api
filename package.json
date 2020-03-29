@@ -6,7 +6,7 @@
   "author": "GokceBulbul",
   "repository": {
     "type": "git",
-    "url": "git://github.com/FreecarsTech/freecars-front.git"
+    "url": "git://github.com/moonston/banking-api"
   },
   "main": "server.js",
   "scripts": {
